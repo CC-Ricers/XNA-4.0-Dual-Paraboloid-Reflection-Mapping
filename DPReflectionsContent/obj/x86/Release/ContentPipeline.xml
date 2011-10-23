@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Models\SphereHighPoly.fbx</Source>
+      <Name>Models\SphereHighPoly</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\Models\SphereHighPoly.xnb</Output>
+      <Time>2011-10-05T00:37:40.3740234-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\SphereHighPoly_0.xml</Key>
+        <Value>2011-10-23T13:38:43.0566406-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\dragon.fbx</Source>
+      <Name>Models\dragon</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\Models\dragon.xnb</Output>
+      <Time>2011-10-04T22:54:35.3242187-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\dragon_0.xml</Key>
+        <Value>2011-10-23T13:38:53.8017578-05:00</Value>
+      </Dependency>
+      <Request>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_column_b_diff_0.xnb</Request>
+      <Request>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_flagpole_diff_0.xnb</Request>
+      <Request>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_fabric_green_diff_0.xnb</Request>
+      <Request>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_arch_diff_0.xnb</Request>
+      <Request>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_column_c_diff_0.xnb</Request>
+      <Request>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\chain_texture_0.xnb</Request>
+      <Request>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\vase_hanging_0.xnb</Request>
+      <Request>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_ceiling_a_diff_0.xnb</Request>
+      <Request>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_fabric_blue_diff_0.xnb</Request>
+      <Request>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\lion_0.xnb</Request>
+      <Request>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\background_0.xnb</Request>
+      <Request>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\vase_dif_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Shaders\DPMReflect.fx</Source>
+      <Name>Shaders\DPMReflect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\Shaders\DPMReflect.xnb</Output>
+      <Time>2011-10-23T13:41:10.6572265-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Shaders\EnvironmentMap.fx</Source>
+      <Name>Shaders\EnvironmentMap</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\Shaders\EnvironmentMap.xnb</Output>
+      <Time>2011-10-13T10:37:20.1708984-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Shaders\Phong.fx</Source>
+      <Name>Shaders\Phong</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\Shaders\Phong.xnb</Output>
+      <Time>2011-09-15T20:55:32.0908203-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Shaders\Texture.fx</Source>
+      <Name>Shaders\Texture</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\Shaders\Texture.xnb</Output>
+      <Time>2011-10-15T00:42:08.1630859-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Font.spritefont</Source>
+      <Name>Font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\Font.xnb</Output>
+      <Time>2011-09-15T20:33:48.9541015-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\graceCUBE.dds</Source>
+      <Name>Textures\graceCUBE</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\Textures\graceCUBE.xnb</Output>
+      <Time>2011-09-15T20:33:26.2578125-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\whitetex.dds</Source>
+      <Name>Textures\whitetex</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\Textures\whitetex.xnb</Output>
+      <Time>2011-09-15T20:33:26.2666015-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\wood.png</Source>
+      <Name>Textures\wood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\Textures\wood.xnb</Output>
+      <Time>2011-09-15T20:33:26.2841796-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ground.x</Source>
+      <Name>Models\Ground</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\Models\Ground.xnb</Output>
+      <Time>2011-10-15T00:52:28.9882812-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Release\Models\Ground_0.xml</Key>
+        <Value>2011-10-23T13:39:12.8935546-05:00</Value>
+      </Dependency>
+      <Request>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\Textures\wood_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\SphereHighPoly.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\SphereHighPoly_0.xml</Output>
+      <Time>2011-10-05T00:37:40.3740234-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\dragon.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\dragon_0.xml</Output>
+      <Time>2011-10-04T22:54:35.3242187-05:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Documents and Settings\JustChris\My Documents\XNA Projects\DeferredTut\DeferredTut\DeferredTutContent\Models\Sponza\textures\sponza_column_b_diff.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_column_b_diff_0.xnb</Output>
+      <Time>2011-02-08T12:37:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Documents and Settings\JustChris\My Documents\XNA Projects\DeferredTut\DeferredTut\DeferredTutContent\Models\Sponza\textures\sponza_flagpole_diff.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_flagpole_diff_0.xnb</Output>
+      <Time>2009-10-05T12:53:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Documents and Settings\JustChris\My Documents\XNA Projects\DeferredTut\DeferredTut\DeferredTutContent\Models\Sponza\textures\sponza_fabric_green_diff.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_fabric_green_diff_0.xnb</Output>
+      <Time>2011-02-08T12:37:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Documents and Settings\JustChris\My Documents\XNA Projects\DeferredTut\DeferredTut\DeferredTutContent\Models\Sponza\textures\sponza_arch_diff.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_arch_diff_0.xnb</Output>
+      <Time>2011-02-08T12:37:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Documents and Settings\JustChris\My Documents\XNA Projects\DeferredTut\DeferredTut\DeferredTutContent\Models\Sponza\textures\sponza_column_c_diff.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_column_c_diff_0.xnb</Output>
+      <Time>2011-02-08T12:37:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Documents and Settings\JustChris\My Documents\XNA Projects\DeferredTut\DeferredTut\DeferredTutContent\Models\Sponza\textures\chain_texture.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\chain_texture_0.xnb</Output>
+      <Time>2011-02-08T12:37:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Documents and Settings\JustChris\My Documents\XNA Projects\DeferredTut\DeferredTut\DeferredTutContent\Models\Sponza\textures\vase_hanging.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\vase_hanging_0.xnb</Output>
+      <Time>2011-02-08T12:37:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Documents and Settings\JustChris\My Documents\XNA Projects\DeferredTut\DeferredTut\DeferredTutContent\Models\Sponza\textures\sponza_ceiling_a_diff.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_ceiling_a_diff_0.xnb</Output>
+      <Time>2011-02-08T12:37:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Documents and Settings\JustChris\My Documents\XNA Projects\DeferredTut\DeferredTut\DeferredTutContent\Models\Sponza\textures\sponza_fabric_blue_diff.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\sponza_fabric_blue_diff_0.xnb</Output>
+      <Time>2011-02-08T12:37:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Documents and Settings\JustChris\My Documents\XNA Projects\DeferredTut\DeferredTut\DeferredTutContent\Models\Sponza\textures\lion.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\lion_0.xnb</Output>
+      <Time>2011-02-08T12:37:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Documents and Settings\JustChris\My Documents\XNA Projects\DeferredTut\DeferredTut\DeferredTutContent\Models\Sponza\textures\background.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\background_0.xnb</Output>
+      <Time>2011-02-08T12:37:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>D:\Documents and Settings\JustChris\My Documents\XNA Projects\DeferredTut\DeferredTut\DeferredTutContent\Models\Sponza\textures\vase_dif.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\vase_dif_0.xnb</Output>
+      <Time>2011-02-08T12:37:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ground.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Release\Models\Ground_0.xml</Output>
+      <Time>2011-10-15T00:52:28.9882812-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\wood.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\Textures\wood_0.xnb</Output>
+      <Time>2011-09-15T20:33:26.2841796-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflectionsContent\</RootDirectory>
+      <LoggerRootDirectory>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflectionsContent\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>D:\Documents and Settings\JustChris\My Documents\XNA Projects\others\DualParaReflections\DPReflections\DPReflections\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-02-08T03:37:30.7734375-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
